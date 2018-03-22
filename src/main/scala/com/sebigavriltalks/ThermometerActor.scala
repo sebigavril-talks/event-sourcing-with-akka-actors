@@ -12,9 +12,3 @@ class ThermometerActor extends Actor {
   // (+1 / 0 / -1)
   private def nextTempIncrement() = Random.nextInt(3) - 1
 }
-
-object ThermometerActorProtocol {
-
-  case object Tick
-
-}
